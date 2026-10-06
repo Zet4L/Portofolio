@@ -266,6 +266,7 @@ nav a:hover {
 .profile-circle {
     width: 280px;
     height: 280px;
+
     border-radius: 50%;
     overflow: hidden;
 
@@ -274,6 +275,7 @@ nav a:hover {
     justify-content: center;
 
     background: #1e293b;
+
     border: 2px solid #38bdf8;
 
     box-shadow: 0 0 50px rgba(56, 189, 248, 0.2);
@@ -282,9 +284,14 @@ nav a:hover {
 .profile-circle img {
     width: 100%;
     height: 100%;
+
     object-fit: cover;
-    object-position: center;
-    border-radius: 50%;
+
+    object-position: center 5%;
+
+    transform: scale(1.08);
+
+    display: block;
 }
 
 
